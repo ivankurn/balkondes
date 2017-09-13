@@ -28,15 +28,8 @@ class C_Front extends Controller{
 		date_default_timezone_set('Asia/Jakarta');
     }
 	
-    public function kasir(Request $request) {
-		Session::set('data',[
-			'title'             => 'Kasir',
-			'menu_active'       => 'kasir'
-		]);
-
-		$id_user = Session::set(['username' => 'Kasir']);
-		
-		return view('kasir');
+    public function home(Request $request) {
+		return view('front');
 	}
 }
 
