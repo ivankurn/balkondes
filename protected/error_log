@@ -1,0 +1,559 @@
+[14-Jan-2016 06:33:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vourest/public_html/protected/database/migrations/2016_01_14_055900_Create_Resto.php on line 31
+[15-Jan-2016 06:38:00 UTC] PHP Fatal error:  Class 'CreateMenu' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 336
+[15-Jan-2016 06:39:53 UTC] PHP Fatal error:  Class 'CreateMenu' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 336
+[15-Jan-2016 06:45:53 UTC] PHP Fatal error:  Class 'CreateMenu' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 336
+[15-Jan-2016 06:48:59 UTC] PHP Fatal error:  Class 'CreateMenu' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 336
+[15-Jan-2016 06:49:30 UTC] PHP Fatal error:  Class 'CreateMenu' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 336
+[15-Jan-2016 07:01:43 UTC] PHP Fatal error:  Class 'CreateTransaksiRedeem' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 336
+[28-Jan-2016 03:20:28 UTC] PHP Fatal error:  Class 'Doctrine\DBAL\Driver\PDOMySql\Driver' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php on line 64
+[28-Jan-2016 03:21:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vourest/public_html/protected/database/migrations/2016_01_28_030906_Update_KategoriMenu_ind_eng.php on line 32
+[28-Jan-2016 03:22:26 UTC] PHP Fatal error:  Class 'Doctrine\DBAL\Driver\PDOMySql\Driver' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php on line 64
+[28-Jan-2016 04:55:28 UTC] PHP Fatal error:  Class 'Doctrine\DBAL\Driver\PDOMySql\Driver' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php on line 64
+[28-Jan-2016 04:58:45 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Schema\Blueprint::increment() in /home/vourest/public_html/protected/database/migrations/2016_01_28_031029_Create_TipeResto.php on line 16
+[01-Feb-2016 09:38:24 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-01.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /home/vourest/public_html/protected/vendor/laravel/frame in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[01-Feb-2016 09:38:24 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-01.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[01-Feb-2016 09:40:41 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-01.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /home/vourest/public_html/protected/vendor/laravel/frame in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[01-Feb-2016 09:40:41 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-01.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:02:05 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /home/vourest/public_html/protected/vendor/laravel/frame in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:02:05 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:33:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 22
+[02-Feb-2016 03:33:46 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:35:17 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /home/vourest/public_html/protected/vendor/laravel/frame in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:35:17 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:36:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 22
+[02-Feb-2016 03:36:17 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:37:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 22
+[02-Feb-2016 03:37:04 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:38:29 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 22
+[02-Feb-2016 03:38:29 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:38:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 22
+[02-Feb-2016 03:38:52 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:50:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 22
+[02-Feb-2016 03:50:10 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:52:16 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /home/vourest/public_html/protected/vendor/laravel/frame in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 03:52:16 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 04:22:37 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /home/vourest/public_html/protected/vendor/laravel/frame in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 04:22:37 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 04:31:57 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /home/vourest/public_html/protected/vendor/laravel/frame in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[02-Feb-2016 04:31:57 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-02.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[03-Feb-2016 04:21:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 19
+[03-Feb-2016 04:21:53 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-03.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[03-Feb-2016 04:25:29 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 19
+[03-Feb-2016 04:25:29 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-03.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[03-Feb-2016 04:26:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 19
+[03-Feb-2016 04:26:10 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-03.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[03-Feb-2016 04:26:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 18
+[03-Feb-2016 04:26:48 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-03.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[03-Feb-2016 04:33:14 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vourest/public_html/protected/database/migrations/2016_02_02_030332_Update_Relasi_Feedback.php on line 19
+[03-Feb-2016 04:33:14 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-03.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[03-Feb-2016 06:13:25 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-03.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /home/vourest/public_html/protected/vendor/laravel/frame in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[03-Feb-2016 06:13:25 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-02-03.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[29-Feb-2016 11:48:22 UTC] PHP Warning:  require(/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php): failed to open stream: No such file or directory in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 11:48:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 11:48:36 UTC] PHP Warning:  require(/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php): failed to open stream: No such file or directory in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 11:48:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 11:51:27 UTC] PHP Warning:  require(/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php): failed to open stream: No such file or directory in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 11:51:27 UTC] PHP Fatal error:  require(): Failed opening required '/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 11:51:52 UTC] PHP Warning:  require(/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php): failed to open stream: No such file or directory in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 11:51:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 11:59:22 UTC] PHP Warning:  require(/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php): failed to open stream: No such file or directory in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 11:59:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/vourest/public_html/protected/vendor/dingo/api/src/helpers.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vourest/public_html/protected/vendor/composer/autoload_real.php on line 55
+[29-Feb-2016 12:18:17 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Feb-2016 12:21:01 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Feb-2016 12:21:33 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Feb-2016 12:22:30 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Feb-2016 12:24:28 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Feb-2016 12:24:51 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Feb-2016 12:26:15 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Feb-2016 12:26:33 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Mar-2016 03:34:16 UTC] PHP Fatal error:  Class 'Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[29-Mar-2016 03:34:16 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-03-29.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87[01-Apr-2016 07:54:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'App' (T_STRING), expecting ']' in /home/vourest/public_html/protected/config/app.php on line 135
+[01-Apr-2016 13:02:31 UTC] PHP Fatal error:  Class 'Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[01-Apr-2016 13:05:24 UTC] PHP Fatal error:  Class 'Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[01-Apr-2016 13:09:11 UTC] PHP Fatal error:  Class 'Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[01-Apr-2016 13:09:43 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\DingoServiceProvider' not found in /home/vourest/public_html/protected/vendor/dingo/api/src/Provider/LaravelServiceProvider.php on line 10
+[01-Apr-2016 13:10:09 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\DingoServiceProvider' not found in /home/vourest/public_html/protected/vendor/dingo/api/src/Provider/LaravelServiceProvider.php on line 10
+[01-Apr-2016 13:11:22 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\DingoServiceProvider' not found in /home/vourest/public_html/protected/vendor/dingo/api/src/Provider/LaravelServiceProvider.php on line 10
+[01-Apr-2016 13:12:52 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\DingoServiceProvider' not found in /home/vourest/public_html/protected/vendor/dingo/api/src/Provider/LaravelServiceProvider.php on line 10
+[16-Apr-2016 15:55:01 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 15:55:01 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 15:55:19 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 15:55:19 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 15:59:12 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 15:59:12 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 15:59:22 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 15:59:22 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:00:45 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:00:45 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:00:53 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:00:53 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:01:55 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:01:55 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:02:21 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:02:21 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:02:29 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:02:29 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:07:44 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:07:44 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:07:50 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:07:50 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:09:11 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:09:11 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:09:26 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:09:26 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:20:42 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:20:42 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:20:54 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:20:54 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:22:29 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:22:29 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:22:42 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:22:42 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:22:59 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:22:59 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:23:07 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:23:07 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:23:14 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:23:14 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:23:21 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:23:21 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:25:26 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:25:26 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:26:42 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:26:42 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:26:51 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:26:51 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:27:33 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:27:33 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:27:44 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:27:44 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:29:29 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:29:29 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:30:01 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:30:01 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:31:53 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:31:53 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:32:05 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:32:05 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:33:45 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:33:45 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:33:54 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:33:54 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:34:44 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:34:44 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:35:41 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:35:41 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:36:09 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:36:09 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:36:23 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:36:23 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:40:39 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:40:39 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 87
+[16-Apr-2016 16:41:33 UTC] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/vourest/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[16-Apr-2016 16:41:33 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/vourest/public_html/protected/storage/logs/laravel-2016-04-16.log" could not be opened: failed to open stream: Permission denied' in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:97
+Stack trace:
+#0 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/vourest/public_html/p in /home/vourest/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 97
+[16-May-2016 05:03:03 America/Chicago] PHP Fatal error:  Cannot redeclare class CreateJob in /home/guntur/public_html/protected/database/migrations/2016_05_14_041344_Create_Job.php on line 37
+[16-May-2016 05:05:50 America/Chicago] PHP Fatal error:  Class 'CreateKategoriMenuCopy' not found in /home/guntur/public_html/protected/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 336
+[12-Jun-2016 23:56:59 America/Chicago] PHP Fatal error:  Class 'Dingo\Api\Provider\LaravelServiceProvider' not found in /home/guntur/public_html/protected/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[12-Jun-2016 23:56:59 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/guntur/public_html/protected/storage/logs/laravel-2016-06-12.log" could not be opened: failed to open stream: Permission denied' in /home/guntur/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:97
+Stack trace:
+#0 /home/guntur/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/guntur/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/guntur/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/guntur/public_html/protected/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /home/guntur/public_html/protecte in /home/guntur/public_html/protected/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 97
