@@ -10,6 +10,9 @@ use App\Http\Models\Users;
 use App\Http\Models\Balkondes;
 use App\Http\Models\VehicleType;
 use App\Http\Models\BalkondesDistance;
+use App\Http\Models\Transaction;
+use App\Http\Models\Tourist;
+use App\Http\Models\DriverSchedule;
 
 use Validator;
 use DB;
@@ -23,6 +26,7 @@ use Illuminate\Support\Facades\Session;
 use Lang;
 use Image;
 use Auth;
+use Carbon\Carbon;
 
 class C_Front extends Controller{
 
@@ -57,6 +61,17 @@ class C_Front extends Controller{
 		$last_ride         = $request->input('last_ride');
 
 		$routes           = $this->createRoute($start, $route, $last_ride);
+
+		if(isset($routes['status'])) {
+			if($routes['status'] == 'error') {
+				$messages = implode('. ', $routes['messages']);
+				$data = array(
+					'messages' => $messages
+				);
+
+				return view('pesan', $data);
+			}
+		}
 		$tourist_array    = unserialize(base64_decode($tourist_serialize));
 		$routes_serialize = base64_encode(serialize($routes));
 
@@ -72,7 +87,113 @@ class C_Front extends Controller{
 	}
 
 	public function order(Request $request) {
-		return $request->all();
+		$tourist_data = $request->input('tourist_data');
+		$route_data   = $request->input('route_data');
+
+		$arr_tourist = unserialize(base64_decode($tourist_data));
+		$arr_route   = unserialize(base64_decode($route_data));
+
+		// date('Ymd').sprintf('%04d', $id_brand).sprintf('%08d', $transaction['id'])]
+
+		$tourist_count = count($arr_tourist);
+		$grand_total   = $arr_route['price'];
+
+		$transaction_data = array(
+			'tourist_count' => $tourist_count,
+			'grand_total' => $grand_total 
+		);
+
+		$transaction_insert = Transaction::create($transaction_data);
+
+		if(!$transaction_insert) {
+			$messages = 'Gagal memasukkan data transaksi.';
+			$data = array(
+				'messages' => $messages
+			);
+
+			return view('pesan', $data);
+
+		}
+
+		$transaction_id = $transaction_insert->id_transaction;
+
+		// update receipt
+		$transaction_update = array('receipt_number' => 'C' . sprintf('%011d', $transaction_id));
+
+		$update = Transaction::where('id_transaction', $transaction_id)
+							->update($transaction_update);
+
+		if(!$update) {
+			$messages = 'Gagal mengupdate transaksi.';
+			$data = array(
+				'messages' => $messages
+			);
+
+			return view('pesan', $data);
+		}
+
+		// insert tourist
+
+		$tourists = array();
+
+		foreach($arr_tourist as $tour) {
+			$tmp = array();
+				 
+			$tmp['id_transaction'] = $transaction_id;
+			$tmp['name']           = $tour['name'];
+			$tmp['email']          = $tour['email'];
+			$tmp['mobilephone']    = $tour['phone'];
+			$tmp['created_at']     = Carbon::now();
+			$tmp['updated_at']     = Carbon::now();
+
+			array_push($tourists, $tmp);
+		}
+
+		$insert_tourist = Tourist::insert($tourists);
+
+		if(!$insert_tourist) {
+			$messages = 'Gagal memasukkan data turis.';
+			$data = array(
+				'messages' => $messages
+			);
+
+			return view('pesan', $data);
+		}
+
+		// insert driver schedule
+
+		$driverSchedule = array();
+
+		foreach($arr_route['details'] as $rute) {
+			$temp = array();
+
+			$temp['id_vehicle_type'] = $rute['id_vehicle_type'];
+			$temp['id_transaction'] = $transaction_id;
+			$temp['id_balkondes_distance'] = $rute['id_balkondes_distance'];
+			$temp['created_at']     = Carbon::now();
+			$temp['updated_at']     = Carbon::now();
+
+			array_push($driverSchedule, $temp);
+		}
+
+		$insert_driver_schedule = DriverSchedule::insert($driverSchedule);
+
+		if(!$insert_driver_schedule) {
+			$messages = 'Gagal memasukkan data driver schedule.';
+			$data = array(
+				'messages' => $messages
+			);
+
+			return view('pesan', $data);
+		}
+
+		$messages = 'Berhasil melakukan order.';
+		$data = array(
+			'messages' => $messages
+		);
+
+		return view('pesan', $data);
+
 	}
 
 	public function createRoute($start, $to, $last_by) {
