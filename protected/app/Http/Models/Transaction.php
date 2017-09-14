@@ -35,7 +35,7 @@ class Transaction extends Model
     /**
      * @var array
      */
-    protected $fillable = ['grand_total', 'status', 'tourist_count', 'barcode', 'created_at', 'updated_at'];
+    protected $fillable = ['receipt_number','grand_total', 'status', 'tourist_count', 'assigned', 'created_at', 'updated_at'];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany

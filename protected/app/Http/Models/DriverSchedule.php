@@ -40,29 +40,6 @@ class DriverSchedule extends Model
     /**
      * @var array
      */
-    protected $fillable = ['id_driver', 'id_balkondes_distance', 'pickup_time', 'departure_time', 'arrived_time', 'status', 'created_at', 'updated_at'];
+    protected $fillable = ['id_transaction', 'id_driver', 'id_vehicle_type', 'id_balkondes_distance', 'pickup_time', 'departure_time', 'arrived_time', 'status', 'created_at', 'updated_at'];
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     */
-    public function driver()
-    {
-        return $this->belongsTo('App\Http\Models\Driver', 'id_driver', 'id_driver');
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     */
-    public function balkonde()
-    {
-        return $this->belongsTo('App\Http\Models\Balkonde', 'id_balkondes', 'id_balkondes');
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
-    public function touristJourneys()
-    {
-        return $this->hasMany('App\Http\Models\TouristJourney', 'id_driver_schedule', 'id_driver_schedule');
-    }
 }

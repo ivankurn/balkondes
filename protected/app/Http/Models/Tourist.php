@@ -35,21 +35,5 @@ class Tourist extends Model
     /**
      * @var array
      */
-    protected $fillable = ['name', 'email', 'mobilephone', 'created_at', 'updated_at'];
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
-    public function touristJourneys()
-    {
-        return $this->hasMany('App\Http\Models\TouristJourney', 'id_tourist', 'id_tourist');
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
-    public function touristPackages()
-    {
-        return $this->hasMany('App\Http\Models\TouristPackage', 'id_tourist', 'id_tourist');
-    }
+    protected $fillable = ['id_transaction', 'name', 'email', 'mobilephone', 'created_at', 'updated_at'];
 }

@@ -1,7 +1,7 @@
 <div class="page-header navbar navbar-static-top">
 	<div class="page-header-inner container">
 		<div class="page-logo">
-			<a href="{{url('home')}}">
+			<a href="{{url('/')}}">
 				<img src="{{asset('assets/images/logo-web.png')}}" alt="logo"  class="logo-default" style="margin:8px !important">
 			</a>
 			<div class="menu-toggler sidebar-toggler"><span></span></div>
