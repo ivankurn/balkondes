@@ -34,7 +34,7 @@ class Driver extends Model
      * 
      * @var string
      */
-    protected $table = 'Drivers';
+    protected $table = 'drivers';
 
     /**
      * The primary key for the model.

@@ -23,7 +23,7 @@ class Transaction extends Model
      * 
      * @var string
      */
-    protected $table = 'Transactions';
+    protected $table = 'transactions';
 
     /**
      * The primary key for the model.

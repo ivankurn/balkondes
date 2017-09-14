@@ -23,7 +23,7 @@ class Tourist extends Model
      * 
      * @var string
      */
-    protected $table = 'Tourists';
+    protected $table = 'tourists';
 
     /**
      * The primary key for the model.

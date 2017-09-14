@@ -28,7 +28,7 @@ class DriverSchedule extends Model
      * 
      * @var string
      */
-    protected $table = 'DriverSchedules';
+    protected $table = 'driverschedules';
 
     /**
      * The primary key for the model.

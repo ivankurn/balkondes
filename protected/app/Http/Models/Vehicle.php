@@ -25,7 +25,7 @@ class Vehicle extends Model
      * 
      * @var string
      */
-    protected $table = 'Vehicles';
+    protected $table = 'vehicles';
 
     /**
      * The primary key for the model.
