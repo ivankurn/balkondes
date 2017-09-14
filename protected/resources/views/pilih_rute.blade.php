@@ -74,7 +74,7 @@
                     </div>
                     <div class="row">
                         <h3>Pilihan Rute</h3>
-                        <form action="/pesan" class="form-horizontal mt-repeater" method="post">
+                        <form action="{{ url('pesan') }}" class="form-horizontal mt-repeater" method="post">
                             <input type="hidden" name="tourist_data" value="{{ $tourist_serialize }}">
                             <div class="form-body">
                                 <div class="form-group">

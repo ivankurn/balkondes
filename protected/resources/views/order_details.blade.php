@@ -1,38 +1,21 @@
 @extends('body-front')
 @section('page-plugin-styles')
 	<link href="{{ URL::to('assets/global/plugins/morris/morris.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ URL::to('assets/global/plugins/mapplic/mapplic/mapplic.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('assets/global/plugins/select2/css/select2.min.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('assets/global/plugins/select2/css/select2-bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+    <style>
+        @media print{
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
 @endsection
 @section('page-plugin-js')
 	<script src="{{ asset('assets/global/plugins/morris/morris.min.js') }}" type="text/javascript"></script>
 	<script src="{{ asset('assets/global/plugins/morris/raphael-min.js') }}" type="text/javascript"></script>
-	<script src="{{ asset('assets/global/plugins/jquery.sparkline.min.js') }}" type="text/javascript"></script>
-	<script src="{{ asset('assets/global/plugins/jquery-repeater/jquery.repeater.js') }}" type="text/javascript"></script>
-	<script src="{{ asset('assets/global/plugins/select2/js/select2.full.min.js') }}" type="text/javascript"></script>
 @endsection
 
 @section('page-scripts')
 	<script src="{{ asset('assets/pages/scripts/dashboard.min.js') }}" type="text/javascript"></script>
-	<script src="{{ URL::asset('assets/pages/scripts/components-select2.min.js') }}" type="text/javascript"></script>
-	<script>
-
-        $('.select2').select2();
-		$('.mt-repeater').repeater({
-			show: function () {
-            	$(this).slideDown();
-            	$('.select2-container').remove();
-        	    $('.select2').select2();
-            },
-            hide: function (deleteElement) {
-                if(confirm('Are you sure you want to delete this route?')) {
-                    $(this).slideUp(deleteElement);
-                }
-            },
-            isFirstItemUndeletable: true,
-		});
-		</script>
 @endsection
 
 @section('content')
@@ -42,7 +25,7 @@
 			<div class="portlet-title">
 			   <div class="caption">
 				   <i class="fa fa-search"></i>
-				   <span class="caption-subject bold uppercase font-green">Form Registrasi</span>
+				   <span class="caption-subject bold uppercase font-green">{{ $id }}</span>
 			   </div>
 		   </div>
 			<div class="portlet-body">
@@ -60,11 +43,11 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($tourist_array as $tourist)
+                                    @foreach($tourists as $tourist)
                                         <tr>
                                             <td>{{ $tourist['name'] }}</td>
                                             <td>{{ $tourist['email'] }}</td>
-                                            <td>{{ $tourist['phone'] }}</td>
+                                            <td>{{ $tourist['mobilephone'] }}</td>
                                         </tr>
                                     @endforeach
                                     </tbody>
@@ -101,6 +84,8 @@
                                                                 <th>Kendaraan</th>
                                                                 <th>Jarak</th>
                                                                 <th>Harga</th>
+                                                                <th>Driver</th>
+                                                                <th>CP Driver</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
@@ -110,6 +95,8 @@
                                                                 <td>{{ $route['by'] }}</td>
                                                                 <td>{{ $route['distance'] }} km</td>
                                                                 <td>Rp{{ number_format($route['price'], 2, ',', '.') }}</td>
+                                                                <td>{{ $route['name'] }}</td>
+                                                                <td>{{ $route['phone'] }}</td>
                                                             </tr>
                                                             @endforeach
                                                         </tbody>
@@ -122,18 +109,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row no-print">
                         <div class="col-md-12">
-                            <form action="{{ url('order') }}" method="post">
-                                <input type="hidden" name="tourist_data" value="{{ $tourist_serialize }}">
-                                <input type="hidden" name="route_data" value="{{ $routes_serialize }}">
-                                <div class="form-actions">
-                                    <div class="pull-right">
-                                        <button type="submit" class="btn green"> Pesan <i class="fa fa-check"></i></button> 
-                                        {{ csrf_field() }}
-                                    </div>
-                                </div>
-                            </form>
+                            <div class="pull-right">
+                                <a href="{{ url('') }}" class="btn btn-primary">Home</a>
+                            </div>
                         </div>
                     </div>
 				</div>

@@ -3,6 +3,7 @@ Route::get('/', 'C_Front@home');
 Route::post('/pilih-rute', 'C_Front@pilihRute');
 Route::post('/pesan', 'C_Front@pesan');
 Route::post('/order', 'C_Front@order');
+Route::get('/tour/{id}', 'C_Front@tour');
 
 Route::get('pesanan', 'C_Home@pesananBaru');
 Route::post('pesanan', 'C_Home@pesananBaruPost');

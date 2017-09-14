@@ -118,7 +118,8 @@ class C_Front extends Controller{
 		$transaction_id = $transaction_insert->id_transaction;
 
 		// update receipt
-		$transaction_update = array('receipt_number' => 'C' . sprintf('%011d', $transaction_id));
+		$receipt_number = 'C' . sprintf('%011d', $transaction_id);
+		$transaction_update = array('receipt_number' => $receipt_number);
 
 		$update = Transaction::where('id_transaction', $transaction_id)
 							->update($transaction_update);
@@ -187,18 +188,21 @@ class C_Front extends Controller{
 			return view('pesan', $data);
 		}
 
-		$messages = 'Berhasil melakukan order.';
-		$data = array(
-			'messages' => $messages
-		);
+		// $messages = 'Berhasil melakukan order.';
+		// $data = array(
+		// 	'messages' => $messages
+		// );
 
-		return view('pesan', $data);
+		// return view('pesan', $data);
+		return redirect( url('tour/' . $receipt_number) );
 
 	}
 
 	public function createRoute($start, $to, $last_by) {
 		$max_index   = count($to) - 1; // get index for destination
-		
+		// print_r($to);
+
+		// exit;
         $human_route = ""; // this to save route for human readable
 
         $total_km = 0; // total km
@@ -239,7 +243,8 @@ class C_Front extends Controller{
                 'price'                 => $firstRoute->distances * $singlePrice->price_km,
                 'by'                    => $singlePrice->vehicle_type
             );
-
+		
+		
         $total_km += $firstRoute->distances;
         $price    += ($firstRoute->distances * $singlePrice->price_km);
 
@@ -280,7 +285,7 @@ class C_Front extends Controller{
                         'distance'              => $route->distances,
                         'price'                 => $route->distances * $singlePrice->price_km,
                         'by'                    => $singlePrice->vehicle_type
-                    );
+					);
 
                 $total_km += $route->distances;
                 $price    += ($route->distances * $singlePrice->price_km);
@@ -317,7 +322,8 @@ class C_Front extends Controller{
                         'distance'              => $route->distances,
                         'price'                 => $route->distances * $singlePrice->price_km,
                         'by'                    => $singlePrice->vehicle_type
-                    );
+					);
+
 
                 $total_km += $route->distances;
                 $price    += ($route->distances * $singlePrice->price_km);
@@ -345,6 +351,96 @@ class C_Front extends Controller{
                 'details'  => $input_packages,
             );
 
-    }
+	}
+	
+	public function tour(Request $request, $id=null) {
+		if($id == null) {
+			$messages = 'Halaman tidak valid';
+			$data = array(
+				'messages' => $messages
+			);
+
+			return view('pesan', $data);
+		}
+
+		$transaction = Transaction::where('receipt_number', $id)
+							->first();
+
+		if( !$transaction )  {
+			$messages = 'Kami tidak dapat menemukan transaksi ini.';
+			$data = array(
+				'messages' => $messages
+			);
+
+			return view('pesan', $data);
+		}
+
+		$id_transaction = $transaction->id_transaction;
+		$total_price = $transaction->grand_total;
+
+		// tourist data
+		$tourists = Tourist::where('id_transaction', $id_transaction)
+								->get();
+
+		// rute data
+		$rute = DriverSchedule::select('balkondesdistances.id_balkondes_from', 'balkondesdistances.id_balkondes_to', 'vehicletypes.id_vehicle_type', 'drivers.name', 'drivers.phone')
+							->join('balkondesdistances', 'balkondesdistances.id_balkondes_distance', '=', 'driverschedules.id_balkondes_distance')
+							->join('vehicletypes', 'vehicletypes.id_vehicle_type', '=', 'driverschedules.id_vehicle_type')
+							->leftJoin('drivers', 'drivers.id_driver', '=', 'driverschedules.id_driver')
+							->where('driverschedules.id_transaction', $id_transaction)
+							->orderBy('driverschedules.id_driver_schedule', 'asc')
+							->get()->toArray();
+
+		if(!$rute) {
+			$messages = 'Kami tidak dapat menemukan rute yang dilalui transaksi ini.';
+			$data = array(
+				'messages' => $messages
+			);
+
+			return view('pesan', $data);
+		}
+
+		$max_index = count( $rute ) - 1;
+
+		$start     = $rute[0]['id_balkondes_from'];
+		$last_ride = $rute[$max_index]['id_vehicle_type'];
+		$route = array();
+
+		foreach($rute as $key => $r) {
+			if($key < $max_index) {
+				$tmp     = array();
+				$tmp['to']    = $rute[$key]['id_balkondes_to'];
+				$tmp['by']    = $rute[$key]['id_vehicle_type'];
+				array_push($route, $tmp);
+			}
+		}
+
+		$routenya = $this->createRoute($start, $route, $last_ride);
+
+		if(isset($routenya['status'])) {
+			if($routenya['status'] == 'error') {
+				$messages = implode('. ', $routenya['messages']);
+				$data = array(
+					'messages' => $messages
+				);
+
+				return view('pesan', $data);
+			}
+		}
+
+
+		foreach($rute as $key => $val) {
+			$routenya['details'][$key]['name']  = $rute[$key]['name'];
+			$routenya['details'][$key]['phone'] = $rute[$key]['phone'];
+		} 
+
+		$data = array(
+			'id'       => $id,
+			'tourists' => $tourists,
+			'routes'   => $routenya
+		);
+
+		return view('order_details', $data);
+	}
 }
 
