@@ -31,7 +31,7 @@ class Balkondes extends Model
      *
      * @var string
      */
-    protected $table = 'Balkondes';
+    protected $table = 'balkondes';
 
     /**
      * The primary key for the model.

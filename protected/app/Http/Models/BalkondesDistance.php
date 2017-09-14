@@ -23,7 +23,7 @@ class BalkondesDistance extends Model
      * 
      * @var string
      */
-    protected $table = 'BalkondesDistances';
+    protected $table = 'balkondesdistances';
 
     /**
      * The primary key for the model.
